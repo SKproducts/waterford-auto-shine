@@ -22,7 +22,7 @@
 Sedans, Trucks, SUVs, Minivans. NO boats, motorcycles, or RVs.
 
 ## GitHub Repo
-`nkoneru19/waterford-auto-shine` — push to `origin main`, Vercel auto-deploys.
+`SKproducts/waterford-auto-shine` — push to `origin main`, Vercel auto-deploys (project `waterford-auto-shine` in Joey's team `joeyscrackedconsulting`).
 
 ## Tech Stack
 Next.js + Tailwind CSS. Key paths:
@@ -37,8 +37,7 @@ Next.js + Tailwind CSS. Key paths:
 - `src/app/service-areas/` — Service areas page
 
 ## Deploy check
-Unlinked folder; the project lives in Nikhil's Vercel team. From this folder:
-`python3 ../tools/qa/deploy.py --scope nikhil-5479s-projects` (lesson 119).
+Linked folder, Joey's Vercel team. From this folder: `python3 ../tools/qa/deploy.py` (no scope needed since Sep 14 2026).
 
 ## Before/After slider (Sep 4 2026)
 - `src/components/sections/BeforeAfter.tsx`, on the homepage right after Services
