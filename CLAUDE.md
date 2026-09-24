@@ -60,7 +60,7 @@ service H1s carry service + city, 134-167 word passage on each service page, coo
 above the sticky call bar, FAQ questions are h3s, Lisa P. review in schema, Google link in sameAs.
 Still needs Joey / the client:
 - Vercel: apex -> www redirect is a 307; switch it to 308 in the project's Domains settings
-  (Nikhil's team, dashboard only).
+  (Joey's team `joeyscrackedconsulting`, dashboard only).
 - Exact GBP map pin (geo is an OpenStreetMap street-address geocode, 42.653963 / -83.35599;
   the old value was 2 km off).
 - Owner name + years in business for an About block and blog bylines (reviews say "John").
