@@ -74,6 +74,8 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
+  // Matches the header background (--color-surface) so the phone browser bar blends into it.
+  themeColor: "#f8fafd",
 };
 
 export default function RootLayout({
