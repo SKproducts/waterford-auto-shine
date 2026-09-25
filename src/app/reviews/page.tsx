@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ReviewsPageContent from "@/components/sections/ReviewsPageContent";
 import { siteConfig } from "@/lib/siteConfig";
+import { OG_IMAGES } from "@/lib/og";
 
 export const metadata: Metadata = {
   title:
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
     canonical: "https://www.waterfordautoshine.com/reviews",
   },
   openGraph: {
+    images: OG_IMAGES,
     title: "Customer Reviews | Waterford Auto Shine",
     description:
       "See what our customers are saying about Waterford Auto Shine. 4.8 stars from 45+ Google Reviews. Professional auto detailing in Waterford Township, MI.",

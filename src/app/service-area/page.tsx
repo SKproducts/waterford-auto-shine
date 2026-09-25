@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Phone, Envelope } from "@phosphor-icons/react/dist/ssr";
 import { serviceAreaCities, siteConfig } from "@/lib/siteConfig";
 import { Footer } from "@/components/layout/Footer";
+import { OG_IMAGES } from "@/lib/og";
 
 export const metadata: Metadata = {
   title:
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
     canonical: "https://www.waterfordautoshine.com/service-area",
   },
   openGraph: {
+    images: OG_IMAGES,
     title: "Service Area | Auto Detailing Near You | Waterford Auto Shine",
     description:
       "Waterford Auto Shine serves Waterford Township, Pontiac, Clarkston, White Lake, West Bloomfield, and surrounding Oakland County communities.",

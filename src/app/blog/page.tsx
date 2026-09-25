@@ -3,6 +3,7 @@ import Link from "next/link";
 import { blogPosts } from "@/lib/blogData";
 import { Footer } from "@/components/layout/Footer";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { OG_IMAGES } from "@/lib/og";
 
 export const metadata: Metadata = {
   title:
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
     canonical: "https://www.waterfordautoshine.com/blog",
   },
   openGraph: {
+    images: OG_IMAGES,
     title: "Car Care Tips & Detailing Blog | Waterford Auto Shine",
     description:
       "Expert auto detailing tips, guides, and advice from Waterford Auto Shine.",

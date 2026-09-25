@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/Header";
 import { StickyMobileCTA } from "@/components/layout/StickyMobileCTA";
 import { CookieBanner } from "@/components/layout/CookieBanner";
 import { serviceAreaCities, siteConfig } from "@/lib/siteConfig";
+import { OG_IMAGES } from "@/lib/og";
 
 const GA_ID = "G-609F8R3ENC";
 
@@ -38,21 +39,14 @@ export const metadata: Metadata = {
     siteName: "Waterford Auto Shine",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: `${BASE_URL}/images/gallery-1.jpg`,
-        width: 1200,
-        height: 630,
-        alt: "Waterford Auto Shine - Professional Auto Detailing",
-      },
-    ],
+    images: OG_IMAGES,
   },
   twitter: {
     card: "summary_large_image",
     title: "Waterford Auto Shine | Premium Auto Detailing in Waterford, MI",
     description:
       "Professional hand wash and auto detailing services in Waterford Township, MI. Premium care for cars, trucks, and SUVs.",
-    images: [`${BASE_URL}/images/gallery-1.jpg`],
+    images: [OG_IMAGES[0].url],
   },
   robots: {
     index: true,

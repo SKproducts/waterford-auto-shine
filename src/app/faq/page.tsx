@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import FAQPageContent from "@/components/sections/FAQPageContent";
+import { OG_IMAGES } from "@/lib/og";
 
 export const metadata: Metadata = {
   title:
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
     canonical: "https://www.waterfordautoshine.com/faq",
   },
   openGraph: {
+    images: OG_IMAGES,
     title: "FAQ | Auto Detailing Questions | Waterford Auto Shine",
     description:
       "Frequently asked questions about auto detailing at Waterford Auto Shine in Waterford Township, MI.",

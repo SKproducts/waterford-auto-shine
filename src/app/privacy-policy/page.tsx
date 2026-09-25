@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/lib/siteConfig";
+import { OG_IMAGES } from "@/lib/og";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Waterford Auto Shine | Waterford Township, MI",
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://www.waterfordautoshine.com/privacy-policy",
   },
   openGraph: {
+    images: OG_IMAGES,
     title: "Privacy Policy | Waterford Auto Shine",
     description:
       "Privacy policy for Waterford Auto Shine in Waterford Township, MI. Learn how we collect, use, and protect your personal information.",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/lib/siteConfig";
+import { OG_IMAGES } from "@/lib/og";
 
 export const metadata: Metadata = {
   title: "Accessibility | Waterford Auto Shine | Waterford Township, MI",
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://www.waterfordautoshine.com/accessibility",
   },
   openGraph: {
+    images: OG_IMAGES,
     title: "Accessibility | Waterford Auto Shine",
     description:
       "Accessibility statement for Waterford Auto Shine. Learn about our commitment to making our website accessible to everyone.",

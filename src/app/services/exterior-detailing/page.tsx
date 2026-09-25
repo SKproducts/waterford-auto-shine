@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ServicePageContent from "@/components/sections/ServicePageContent";
 import { getServiceBySlug, getOtherServices } from "@/lib/serviceData";
 import { getBlogBySlug } from "@/lib/blogData";
+import { OG_IMAGES } from "@/lib/og";
 
 const service = getServiceBySlug("exterior-detailing")!;
 const otherServices = getOtherServices("exterior-detailing");
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
     canonical: "https://www.waterfordautoshine.com/services/exterior-detailing",
   },
   openGraph: {
+    images: OG_IMAGES,
     title: "Exterior Detailing Waterford MI | Hand Wash & Wax | Waterford Auto Shine",
     description:
       "Professional exterior auto detailing in Waterford Township, MI. Hand wash, hand wax, tire shine, rim cleaning, and door jamb detail. From $125 to $175.",

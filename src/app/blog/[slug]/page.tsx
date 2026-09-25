@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { blogPosts, getBlogBySlug } from "@/lib/blogData";
 import { Footer } from "@/components/layout/Footer";
 import { ArrowLeft, CaretRight } from "@phosphor-icons/react/dist/ssr";
+import { OG_IMAGES } from "@/lib/og";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -27,6 +28,7 @@ export async function generateMetadata({
       canonical: `https://www.waterfordautoshine.com/blog/${post.slug}`,
     },
     openGraph: {
+      images: OG_IMAGES,
       title: post.title,
       description: post.description,
       url: `https://www.waterfordautoshine.com/blog/${post.slug}`,

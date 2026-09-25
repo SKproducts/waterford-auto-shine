@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/lib/siteConfig";
+import { OG_IMAGES } from "@/lib/og";
 
 export const metadata: Metadata = {
   title: "Terms of Service | Waterford Auto Shine | Waterford Township, MI",
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://www.waterfordautoshine.com/terms-of-service",
   },
   openGraph: {
+    images: OG_IMAGES,
     title: "Terms of Service | Waterford Auto Shine",
     description:
       "Terms of service for Waterford Auto Shine in Waterford Township, MI. Review our terms and conditions for using our website and detailing services.",

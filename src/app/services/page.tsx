@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ServicesOverview from "@/components/sections/ServicesOverview";
+import { OG_IMAGES } from "@/lib/og";
 
 export const metadata: Metadata = {
   title:
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
     canonical: "https://www.waterfordautoshine.com/services",
   },
   openGraph: {
+    images: OG_IMAGES,
     title: "Auto Detailing Services | Waterford Auto Shine",
     description:
       "Professional exterior detailing, interior detailing, and full detail packages in Waterford Township, MI.",
